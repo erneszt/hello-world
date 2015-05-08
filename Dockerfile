@@ -17,4 +17,6 @@ WORKDIR /hello-world
 
 EXPOSE 8080
 
+ENV spring.datasource.url jdbc:mysql://db/test
+
 RUN ./gradlew tasks
